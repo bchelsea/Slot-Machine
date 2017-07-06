@@ -1,0 +1,118 @@
+
+body{
+background-color: pink;
+margin:0px;
+}
+
+
+
+
+body {
+    background-image: url("http://i.imgur.com/RBl8GgU.png");
+    background-size: 900px;
+    background-position: center;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 500px;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+
+
+.slots {
+	font-size:80px;
+	font-family: 'Monoton', cursive;
+	overflow:hidden;
+	border:5px dotted black;
+    float:left;
+    margin-right: 17px;
+    text-align:center;
+    width:100px;
+	height:100px;
+    top: 500px;
+}
+
+
+
+
+button.stop {
+    border: 5px dotted yellow;
+    padding: 3px 35px;
+    background-color: #dd60d2;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 600px;
+    left: 612px;
+    outline: none;
+
+}
+
+
+button.spin {
+    border: 5px dotted yellow;
+    border-radius: 25px;
+    padding: 25px;
+    background-color: #dd60d2;
+    position: absolute;
+    top: 28px;
+    left: 1047px;
+    outline: none;
+}
+
+
+#spinText {
+    border: 5px dotted yellow;
+    font-family: 'Monoton', cursive;
+    color: white;
+    font-size: 16px;
+    background-color: #dd60d2;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 30px;
+    left: 1150px;
+}
+
+
+#bankRoll {
+    border: 5px dotted yellow;
+    font-family: 'Monoton', cursive;
+    color: white;
+    font-size: 30px;
+    background-color: #dd60d2;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    padding: 40px;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+button:hover {
+    background-color: yellow;
+    border: dotted #dd60d2;
+    color: black;
+}
+
+
+.slotRow {
+    position: absolute;
+    top: 400px;
+    left: 770px;
+    width: 500px;
+    height: 300px;
+    margin-left: -250px;
+    margin-top: -150px;
+
+
+}
