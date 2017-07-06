@@ -60,23 +60,14 @@
     - clear board
     - re activates shuffler animation 
 
-7. Wild Card ( AVOCADO )
-
-- Alert for Wild card 
-    - 3 free spins will be called
-    - possible multiply /  more money to win. 
 
 
-
-
-
-
-
-
-
-/* Attach Slot Machine Plu Animation in */
-
-/* Create an unordered list and list elements that will spin the slots  */
+7. Set Time Interval for Slot shuffling :
+- 3 second delay between each start of slot 
+    - set interval function for when slots(emojis) get called to start spinning.
+    - spin one second 
+    - each spin for three seconds
+        
 
 
     
