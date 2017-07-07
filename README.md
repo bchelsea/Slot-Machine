@@ -26,10 +26,9 @@ via Youtube.
     <img src="read_me_images/directions_img.png">
 </h3>
 
- <h4>This next bit walks us through the simple instructions for playing the **Emoji Slot Machine** properly. It really is quite simple. Refer to the attached images for a more visual look at how to play.
---
-<center> <u>Before You Begin:</u></center>
-<br>
+ <h4>This next bit walks us through the simple instructions for playing the **Emoji Slot Machine** properly. It really is quite simple. Refer to the attached images for a more visual look at how to play.</h4>
+
+ - <h4>Before You Begin:</h4>
     There are 8 possible Emoji's that can be matched up. Let's take a look at a couple of combinations:<br>
      <h5 align="center">
      <img src="read_me_images/two_in_a_row.png"> 
