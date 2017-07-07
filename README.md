@@ -95,23 +95,6 @@ via Youtube.
    - CSS 
    - JAVASCRIPT & JQUERY
 
-
-2) Hover Animations in CSS:
-
-   ```
-   button:hover {
-        background-color: yellow;
-        border: 5px dotted #dd60d2;
-        color: black;
-
-2) Interval Functions in JS to have flashing boxes: 
-
-    ```
-    setInterval(function () {
-    $('.spin').css('background-color', function () {
-        this.switch = !this.switch
-        return this.switch ? 'yellow' : 
-    });}, 500) ```
     
 3) Mac OS: Pages:
     - I used Pages in order to create the background image of the main slot machine. I then saved the document and exported it as a PNG. 
