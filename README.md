@@ -1,7 +1,7 @@
 
 
 <h4 align="center">
-  <img src="Emoji_Slot_Machine.png">
+  <img src="read_me_images/Emoji_Slot_Machine.png">
 </h4>
 
 <b>Hello there fellow gamblers!</b> 
@@ -23,7 +23,7 @@ via Youtube.
 
 ---
 <h3 align="center"> 
-    <img src="directions_img.png">
+    <img src="read_me_images/directions_img.png">
 </h3>
 
  <h4>This next bit walks us through the simple instructions for playing the **Emoji Slot Machine** properly. It really is quite simple. Refer to the attached images for a more visual look at how to play.
@@ -31,21 +31,21 @@ via Youtube.
 <center> <u>Before You Begin:</u></center>
     There are <u><b>8</b></u> possible Emoji's that can be matched up. Let's take a look at a couple of combinations:</br>
      <h5 align="center">
-     <img src="two_in_a_row.png"> 
+     <img src="read_me_images/two_in_a_row.png"> 
      </h5> 
 
 - combination 1:
     - TWO IN A ROW! Pictured Above is two of    a kind. When two of the same Emoji's      appear, (next to each other or not)       $100 dollars gets added to your total     money earned.
      
 <h5 align="center">
-     <img src="no_match.png"> 
+     <img src="read_me_images/no_match.png"> 
      </h5> 
 
 - combination 2.
     - NO MATCH! uh oh. Pictured above, when none of the slots contain a matching Emoji, $75 is deducted from your total money earned. 
 
 <h5 align="center">
-     <img src="three_of_a_king.png"> 
+     <img src="read_me_images/three_of_a_king.png"> 
      </h5> 
 
 - combination 3:
@@ -73,7 +73,7 @@ via Youtube.
 </h3>Check out this image of **Emoji Slot Machine** made with some edits to better show you which things do what while you are playing.</h3>
 
 <h5 align="center">
-     <img src="slot_machine_guide.png"> </h5>
+     <img src="read_me_images/slot_machine_guide.png"> </h5>
 
 ---
 ---
@@ -83,7 +83,7 @@ via Youtube.
 ---
 
 <h5 align="center">
-     <img src="Screen Shot 2017-07-07 at 2.35.42 AM.png"> 
+     <img src="read_me_images/Screen Shot 2017-07-07 at 2.35.42 AM.png"> 
      </h5>
 
 
@@ -117,7 +117,7 @@ via Youtube.
 ---
 
 <h5 align="center">
-     <img src="next_steps.png"> </h5>
+     <img src="read_me_images/next_steps.png"> </h5>
 
 There is always something to look forward to in Version 2! Though I learned a lot throughout the building of **Emoji Slot Machine**, there are many features im excited to explore and add in the near future:
 
@@ -129,7 +129,7 @@ There is always something to look forward to in Version 2! Though I learned a lo
 ---
 
 <h5 align="center">
-     <img src="Ty_img.png"> 
+     <img src="read_me_images/Ty_img.png"> 
      </h5>
 
   Thank you for reading and  playing the Emoji Slot Machine. I hope you enjoyed it! Stay tuned for more exciting changes and features! 
