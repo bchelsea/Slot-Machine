@@ -18,8 +18,6 @@ var images = [
     'http://i.imgur.com/u11DlyW.png'
 ];
 
-
-
 /*----- event listeners -----*/
 
 $(document).ready(function(){
@@ -29,13 +27,17 @@ $(document).ready(function(){
         checkForWin();
         console.log('now', score);
         isGameOver();
+        isCompleteRow();
         updateScore();
     });
+    $('button#newGame').click(function() {
+        resetGame();
+    })
 })
 
 /*----- functions -----*/
 
- /*setInterval(function () {
+setInterval(function () {
     $("#score").css("background-color", function () {
         this.switch = !this.switch
         return this.switch ? "yellow" : ""
@@ -50,7 +52,6 @@ setInterval(function () {
         return this.switch ? "yellow" : ""
     });
 }, 500)
-*/
 
 function goEmojis() {
     slotA = Math.floor(Math.random() * 8) + 1;
@@ -67,19 +68,17 @@ function checkForWin() {
     if (slotA == slotB && slotB == slotC) {
         console.log(' 3 in a row!')
         changeScore(500)
-        setTimeout(function () {
-            alert('CHACHING! lucky three in a row, 500 bucks for you!');
-        }, 100);
-    } else if (slotA !== slotB && slotB !== slotC) {
-        console.log('no matches')
-        changeScore(-25)
-        return null;
+        isCompleteRow();
     } else if (
         (slotA !== slotB && slotA == slotC) || 
         (slotA == slotB && slotA !== slotC) || 
         (slotB == slotC && slotB !== slotA)) {
         console.log('two of a kind')
         changeScore(100)
+    } else if (slotA !== slotB && slotB !== slotC) {
+        console.log('no matches')
+        changeScore(-75)
+        return null;
     }
 }
 
@@ -90,9 +89,23 @@ function changeScore(amt) {
 function isGameOver() {
     if(score <= 0) {
         setTimeout(function(){
-            $('#gameOver').show();
+            $('#gameOver').show().delay(2000).fadeOut();;
         },  100);
     }
+}
+
+function isCompleteRow() {
+    if(slotA == slotB && slotB == slotC) {
+        setTimeout(function(){
+            $('#completeRow').show().delay(2000).fadeOut();;
+        },  100);
+
+    }
+}
+
+function resetGame() {
+    score = 500;
+    updateScore();
 }
 
 function updateScore() {

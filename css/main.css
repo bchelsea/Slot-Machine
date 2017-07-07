@@ -27,7 +27,7 @@ body {
 	height:100px;
 }
 
-button.newGame {
+button#newGame {
     position: absolute;
     border: 5px dotted yellow;
     padding: 3px 35px;
@@ -86,12 +86,17 @@ button.spin {
     left: -150px;
 }
 
-button:hover {
+#newGame:hover {
     background-color: yellow;
     border: 5px dotted #dd60d2;
     color: black;
 }
 
+button:hover {
+    background-color: yellow;
+    border: 5px dotted #dd60d2;
+    color: black;
+}
 
 .slotRow {
     position: relative;
@@ -117,4 +122,18 @@ button:hover {
     top: 360px;
     left: 265px;
 
+}
+
+#completeRow {
+    position: absolute;
+    font-family: 'Monoton', cursive;
+    color: black;
+    font-size: 25px;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    top: 360px;
+    left: 265px;
+    line-height: 32px;
 }
