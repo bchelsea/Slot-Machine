@@ -89,7 +89,14 @@ via Youtube.
 
  <h4>I used simple technlogies to build the Emoji Slot Machine. Below I have created a list showcasing how Emoji SLot Machine came to be.</h4>
 
-1) Hover Animations in CSS:
+
+
+1) - HTML
+   - CSS 
+   - JAVASCRIPT & JQUERY
+
+
+2) Hover Animations in CSS:
 
    ```
    button:hover {
