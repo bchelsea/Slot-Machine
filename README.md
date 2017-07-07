@@ -71,8 +71,43 @@ via Youtube.
 
 <h5 align="center">
      <img src="slot_machine_guide.png"> </h5>
+
 ---
 ---
+
+<h4> Let's Continue... </h4>
+
+---
+
+<h5 align="center">
+     <img src="Screen Shot 2017-07-07 at 2.35.42 AM.png"> 
+     </h5>
+
+
+ <h4>I used simple technlogies to build the Emoji Slot Machine. Below I have created a list showcasing how Emoji SLot Machine came to be.</h4>
+
+1) Hover Animations in CSS:
+
+   ```
+   button:hover {
+        background-color: yellow;
+        border: 5px dotted #dd60d2;
+        color: black;
+    ```
+2) Interval Functions in JS to have flashing boxes: 
+    ```
+    setInterval(function () {
+    $('.spin').css('background-color', function () {
+        this.switch = !this.switch
+        return this.switch ? 'yellow' : 
+    });}, 500)
+    ```
+    
+3) Mac OS; Pages:
+    - I used Pages in order to create the background image of the main slot machine. I then saved the document and exported it as a PNG. 
+    
+
+
 
 
 
