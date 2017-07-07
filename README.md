@@ -35,7 +35,7 @@ via Youtube.
      </h5> 
 
 - combination 1:
-    - TWO IN A ROW! Pictured Above is two of    a kind. When two of the same Emoji's      appear, (next to each other or not)       $100 dollars gets added to your total     money earned.
+    - TWO IN A ROW! Pictured Above is two of a kind. When two of the same Emoji's appear, (next to each other or not) $100 dollars gets added to your total won.
      
 <h5 align="center">
      <img src="read_me_images/no_match.png"> 
@@ -57,18 +57,18 @@ via Youtube.
     - [CLICK ME](https://bchelsea.github.io/Slot-Machine/)
     - Your total Money Won will begin at $500
 
-2. Click flashing handle on the right hand       side to start Emoji Slot Machine
+2. Click flashing handle on the right hand side to start Emoji Slot Machine
     -  When combination appears:
        - If a Three of A Kind combination you will be notified on the slot machine screen and your total money won will be updated.
        - If a Two of A Kind combination you will not be notified on the slot machine screen and your total money won will be updated.
        - If a No Match combination you will not be notified on the slot machine screen and your total money won will be updated.
-    - Repeat process until you become a         billionaire or you run out of Money Won.
+    - Repeat process until you become a billionaire or you run out of Money Won.
 
 3. If your Total Money Won hits 0 or below:
-    - It is **<u>GAME OVER</u>**. You will be   notified on the slot machine screen       that your are out of cash and you will    be prompted to click <b>NEW GAME</b>
-        - when **NEW GAME** button is clicked,  your total Money Won is reset to      the starting $500 and you are then    able to start playing **Emoji Slot    Machine** again.
+    - It is **<u>GAME OVER</u>**. You will be notified on the slot machine screen that your are out of cash and you will be prompted to click <b>NEW GAME</b>
+        - when **NEW GAME** button is clicked, your total Money Won is reset to the starting $500 and you are then able to start playing **Emoji Slot Machine** again.
 4. Click NEW GAME
-    - NEW GAME button allows your total Money Won.. or lost (he he) to be reset too the starting $500 amount. 
+    - NEW GAME button allows your total Money Won.. or lost (tehe) to be reset too the starting $500 amount. 
 
 </h3>Check out this image of **Emoji Slot Machine** made with some edits to better show you which things do what while you are playing.</h3>
 
@@ -106,7 +106,7 @@ via Youtube.
         return this.switch ? 'yellow' : 
     });}, 500) ```
     
-3) Mac OS; Pages:
+3) Mac OS: Pages:
     - I used Pages in order to create the background image of the main slot machine. I then saved the document and exported it as a PNG. 
 
 ---
