@@ -93,15 +93,15 @@ via Youtube.
         background-color: yellow;
         border: 5px dotted #dd60d2;
         color: black;
-    ```
+
 2) Interval Functions in JS to have flashing boxes: 
+
     ```
     setInterval(function () {
     $('.spin').css('background-color', function () {
         this.switch = !this.switch
         return this.switch ? 'yellow' : 
-    });}, 500)
-    ```
+    });}, 500) ```
     
 3) Mac OS; Pages:
     - I used Pages in order to create the background image of the main slot machine. I then saved the document and exported it as a PNG. 
@@ -122,6 +122,14 @@ There is always something to look forward to in Version 2! Though I learned a lo
 - Discovering ways to better animate the shuffling and randomizing of the row of slots in **Emoji Slot Machine**
 - shuffling through background images:
     - so each time the user reloads the page a differet background appears making it more exciting to play.
+---
+---
+
+<h5 align="center">
+     <img src="Ty_img.png"> 
+     </h5>
+
+  Thank you for reading and  playing the Emoji Slot Machine. I hope you enjoyed it! Stay tuned for more exciting changes and features! 
 
 
 
