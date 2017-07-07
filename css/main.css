@@ -104,3 +104,17 @@ button:hover {
 #slots_a {
     margin-left: -10px;
 }
+
+#gameOver {
+    position: absolute;
+    font-family: 'Monoton', cursive;
+    color: black;
+    font-size: 25px;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    top: 360px;
+    left: 265px;
+
+}

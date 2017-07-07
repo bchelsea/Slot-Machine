@@ -7,30 +7,20 @@ var slotC;
 
 var score = 500;
 
-
-
-
 var images = [
     'http://i.imgur.com/74YyHqa.png',
-
     'http://i.imgur.com/AMn1C3n.png',
-
     'http://i.imgur.com/MXNLGis.png',
-
     'http://i.imgur.com/N3jFGfj.png',
-
     'http://i.imgur.com/xX6tUj7.png',
-
     'http://i.imgur.com/dG0pmcl.png',
-
     'http://i.imgur.com/0e2IQjY.png',
-
     'http://i.imgur.com/u11DlyW.png'
      ];
 
 /*----- functions -----*/
 
- setInterval(function () {
+ /*setInterval(function () {
     $("#score").css("background-color", function () {
         this.switch = !this.switch
         return this.switch ? "yellow" : ""
@@ -45,7 +35,7 @@ setInterval(function () {
         return this.switch ? "yellow" : ""
     });
 }, 500)
-
+*/
 
 function goEmojis() {
 
@@ -68,8 +58,7 @@ function goEmojis() {
   $(document).ready(function(){
      $('button.spin').click(function(){
       goEmojis(); 
-    
-    
+
     if (slotA == slotB && slotB == slotC) {
     score += 500;
 }   else if (slotA == slotB && slotB !== slotC || slotA == slotB && slotA == slotC) {
@@ -77,14 +66,13 @@ function goEmojis() {
 }   else {
     score -= 25;
 };
+    if(score <= 0) {
+       setTimeout(function(){
+           $('#gameOver').show();
+        },  100);
+   }
 
 $('#score').html( 'MONEY WON' + ' $' + score);
 
 });
-   
-
 })
-
- 
-/*----- app's state (variables) -----*/
-/*----- cached element references -----*/
