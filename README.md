@@ -4,7 +4,7 @@
   <img src="Emoji_Slot_Machine.png">
 </h4>
 
-Hello there fellow gamblers!</b> Welcome to the one and only **Emoji Slot Machine**! Whether you are a novice slot machine player or basically live in a casino, the **Emoji Slot Machine** makes it easy and fun to spend (fake) money! Equipped with fun flashing animations and pretty high winning odds, **Emoji Slot Machine** is as enjoyable to watch as it is to play... almost feels as if you were in the Sin City itself! 
+<b>Hello there fellow gamblers!</b> Welcome to the one and only **Emoji Slot Machine**! Whether you are a novice slot machine player or basically live in a casino, the **Emoji Slot Machine** makes it easy and fun to spend (fake) money! Equipped with fun flashing animations and pretty high winning odds, **Emoji Slot Machine** is as enjoyable to watch as it is to play... almost feels as if you were in the Sin City itself! 
 
 <br>
 For those unfamiliar with Slot Machines and their history, check out the provided links below to learn more.
@@ -105,9 +105,23 @@ via Youtube.
     
 3) Mac OS; Pages:
     - I used Pages in order to create the background image of the main slot machine. I then saved the document and exported it as a PNG. 
-    
 
+---
+---
 
+<h4> Lastly... </h4>
+
+---
+
+<h5 align="center">
+     <img src="next_steps.png"> </h5>
+
+There is always something to look forward to in Version 2! Though I learned a lot throughout the building of **Emoji Slot Machine**, there are many features im excited to explore and add in the near future:
+
+- Adding sounds to buttons when they are clicked.
+- Discovering ways to better animate the shuffling and randomizing of the row of slots in **Emoji Slot Machine**
+- shuffling through background images:
+    - so each time the user reloads the page a differet background appears making it more exciting to play.
 
 
 
