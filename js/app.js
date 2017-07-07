@@ -1,4 +1,4 @@
- /*----- constants -----*/
+ /*----- Variables Below -----*/
 var slotA;
 
 var slotB;
@@ -18,7 +18,7 @@ var images = [
     'http://i.imgur.com/u11DlyW.png'
 ];
 
-/*----- event listeners -----*/
+/*----- Event listeners Below -----*/
 
 $(document).ready(function(){
     $('button.spin').click(function(){
@@ -33,7 +33,7 @@ $(document).ready(function(){
     })
 })
 
-/*----- functions -----*/
+/*----- Functions Below -----*/
 
 setInterval(function () {
     $('#score').css('background-color', function () {
