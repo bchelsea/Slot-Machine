@@ -18,6 +18,21 @@ var images = [
     'http://i.imgur.com/u11DlyW.png'
 ];
 
+
+
+/*----- event listeners -----*/
+
+$(document).ready(function(){
+    $('button.spin').click(function(){
+        goEmojis();
+        console.log('was', score);
+        checkForWin();
+        console.log('now', score);
+        isGameOver();
+        updateScore();
+    });
+})
+
 /*----- functions -----*/
 
  /*setInterval(function () {
@@ -38,7 +53,6 @@ setInterval(function () {
 */
 
 function goEmojis() {
-
     slotA = Math.floor(Math.random() * 8) + 1;
     slotB = Math.floor(Math.random() * 8) + 1;
     slotC = Math.floor(Math.random() * 8) + 1;
@@ -46,7 +60,6 @@ function goEmojis() {
     $($('.slots')[0]).html('<img src = "' + images[slotA-1] + '">');
     $($('.slots')[1]).html('<img src = "' + images[slotB-1] + '">');
     $($('.slots')[2]).html('<img src = "' + images[slotC-1] + '">');
-    
     
 }
 
@@ -74,27 +87,14 @@ function changeScore(amt) {
     score += amt
 }
 
-$(document).ready(function(){
-    $('button.spin').click(function(){
-        goEmojis();
-        console.log('was', score);
-        checkForWin();
-        console.log('now', score);
-       /* if (slotA == slotB && slotB == slotC) {
-            score += 500;
-        }   else if (slotA == slotB && slotB !== slotC || slotA == slotB && slotA == slotC) {
-            score += 100;
-        }   else {
-            score -= 25;
-        };
-*/
-        if(score <= 0) {
-            setTimeout(function(){
-                $('#gameOver').show();
-            },  100);
-        }
+function isGameOver() {
+    if(score <= 0) {
+        setTimeout(function(){
+            $('#gameOver').show();
+        },  100);
+    }
+}
 
-        $('#score').html( 'MONEY WON' + ' $' + score);
-
-    });
-})
+function updateScore() {
+    $('#score').html( 'MONEY WON' + ' $' + score);
+}
