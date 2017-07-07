@@ -16,7 +16,7 @@ var images = [
     'http://i.imgur.com/dG0pmcl.png',
     'http://i.imgur.com/0e2IQjY.png',
     'http://i.imgur.com/u11DlyW.png'
-     ];
+];
 
 /*----- functions -----*/
 
@@ -48,31 +48,35 @@ function goEmojis() {
     $($('.slots')[2]).html('<img src = "' + images[slotC-1] + '">');
     
     if (slotA == slotB && slotB == slotC) {
-        setTimeout("alert('CHACHING! lucky three in a row, 500 bucks for you!');", 100);
-}   else if (slotA !== slotB && slotB !== slotC) {
-        return(null)
-}   else (slotA !== slotB && slotB == slotC) 
-        return(null)
+        setTimeout(function () {
+            alert('CHACHING! lucky three in a row, 500 bucks for you!');
+        }, 100);
+    } else if (slotA !== slotB && slotB !== slotC) {
+        return null;
+    } else {
+        return null;
+    }
 }
 
-  $(document).ready(function(){
-     $('button.spin').click(function(){
-      goEmojis(); 
+$(document).ready(function(){
+    $('button.spin').click(function(){
+        goEmojis(); 
 
-    if (slotA == slotB && slotB == slotC) {
-    score += 500;
-}   else if (slotA == slotB && slotB !== slotC || slotA == slotB && slotA == slotC) {
-    score += 100;
-}   else {
-    score -= 25;
-};
-    if(score <= 0) {
-       setTimeout(function(){
-           $('#gameOver').show();
-        },  100);
-   }
+        if (slotA == slotB && slotB == slotC) {
+            score += 500;
+        }   else if (slotA == slotB && slotB !== slotC || slotA == slotB && slotA == slotC) {
+            score += 100;
+        }   else {
+            score -= 25;
+        };
 
-$('#score').html( 'MONEY WON' + ' $' + score);
+        if(score <= 0) {
+            setTimeout(function(){
+                $('#gameOver').show();
+            },  100);
+        }
 
-});
+        $('#score').html( 'MONEY WON' + ' $' + score);
+
+    });
 })
