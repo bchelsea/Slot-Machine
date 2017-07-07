@@ -4,7 +4,9 @@
   <img src="Emoji_Slot_Machine.png">
 </h4>
 
-<b>Hello there fellow gamblers!</b> Welcome to the one and only **Emoji Slot Machine**! Whether you are a novice slot machine player or basically live in a casino, the **Emoji Slot Machine** makes it easy and fun to spend (fake) money! Equipped with fun flashing animations and pretty high winning odds, **Emoji Slot Machine** is as enjoyable to watch as it is to play... almost feels as if you were in the Sin City itself! 
+<b>Hello there fellow gamblers!</b> 
+<br>
+Welcome to the one and only __Emoji Slot Machine__! Whether you are a novice slot machine player or basically live in a casino, the __Emoji Slot Machine__ makes it easy and fun to spend (fake) money! Equipped with fun flashing animations and pretty high winning odds, __Emoji Slot Machine__ is as enjoyable to watch as it is to play... almost feels as if you were in the Sin City itself! 
 
 <br>
 For those unfamiliar with Slot Machines and their history, check out the provided links below to learn more.
