@@ -47,21 +47,30 @@ function goEmojis() {
     $($('.slots')[1]).html('<img src = "' + images[slotB-1] + '">');
     $($('.slots')[2]).html('<img src = "' + images[slotC-1] + '">');
     
+    
+}
+
+function checkForWin() {
     if (slotA == slotB && slotB == slotC) {
+        console.log(' 3 in a row!')
         setTimeout(function () {
             alert('CHACHING! lucky three in a row, 500 bucks for you!');
         }, 100);
     } else if (slotA !== slotB && slotB !== slotC) {
+        console.log('no matches')
         return null;
-    } else {
-        return null;
+    } else if (
+        (slotA !== slotB && slotA == slotC) || 
+        (slotA == slotB && slotA !== slotC) || 
+        (slotB == slotC && slotB !== slotA)) {
+        console.log('two of a kind')
     }
 }
 
 $(document).ready(function(){
     $('button.spin').click(function(){
         goEmojis(); 
-
+        checkForWin();
         if (slotA == slotB && slotB == slotC) {
             score += 500;
         }   else if (slotA == slotB && slotB !== slotC || slotA == slotB && slotA == slotC) {
