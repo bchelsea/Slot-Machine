@@ -53,32 +53,41 @@ function goEmojis() {
 function checkForWin() {
     if (slotA == slotB && slotB == slotC) {
         console.log(' 3 in a row!')
+        changeScore(500)
         setTimeout(function () {
             alert('CHACHING! lucky three in a row, 500 bucks for you!');
         }, 100);
     } else if (slotA !== slotB && slotB !== slotC) {
         console.log('no matches')
+        changeScore(-25)
         return null;
     } else if (
         (slotA !== slotB && slotA == slotC) || 
         (slotA == slotB && slotA !== slotC) || 
         (slotB == slotC && slotB !== slotA)) {
         console.log('two of a kind')
+        changeScore(100)
     }
+}
+
+function changeScore(amt) {
+    score += amt
 }
 
 $(document).ready(function(){
     $('button.spin').click(function(){
-        goEmojis(); 
+        goEmojis();
+        console.log('was', score);
         checkForWin();
-        if (slotA == slotB && slotB == slotC) {
+        console.log('now', score);
+       /* if (slotA == slotB && slotB == slotC) {
             score += 500;
         }   else if (slotA == slotB && slotB !== slotC || slotA == slotB && slotA == slotC) {
             score += 100;
         }   else {
             score -= 25;
         };
-
+*/
         if(score <= 0) {
             setTimeout(function(){
                 $('#gameOver').show();
