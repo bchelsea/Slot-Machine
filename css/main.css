@@ -16,15 +16,15 @@ body {
 }
 
 .slots {
-	font-size:80px;
+	font-size: 80px;
 	font-family: 'Monoton', cursive;
-	border:5px dotted black;
-    float:left;
+	border: 5px dotted black;
+    float: left;
     overflow: hidden;
     margin-right: 17px;
-    text-align:center;
-    width:100px;
-	height:100px;
+    text-align: center;
+    width: 100px;
+	height: 100px;
 }
 
 button#newGame {
