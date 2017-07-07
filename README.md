@@ -52,6 +52,7 @@ via Youtube.
 <h4><u>Step by Step Instructions:</u></h4>
 
 1. Go to Emoji Slot Machine URL
+    - [CLICK ME](https://bchelsea.github.io/Slot-Machine/)
     - Your total Money Won will begin at $500
 
 2. Click flashing handle on the right hand       side to start Emoji Slot Machine
