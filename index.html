@@ -16,66 +16,64 @@
 <body> 
 
     <div id='wrapper'>
+        <button type='button' id='newGame'> NEW GAME </button>
+
+        <button type='button' class='spin' id="audio"> </button>
+
+        <div id='spinText'> Click Handle To Spin! </div>
+
+        <div id='score'> 
+            <header> MONEY WON </header>
+            <p>500</p>
+        </div>
+
+        <div id='gameOver' style="display: none"> OUT OF CASH. <br> Please start a new game. </div>
+
+        <div id='completeRow' style="display: none"> CHACHING! <br> lucky three in a row, <br> +500! </div>
 
 
-<button type='button' id='newGame'> NEW GAME </button>
+        <div class='slotRow'>
 
-<button type='button' class='spin'> </button>
-
-<div id='spinText'> Click Handle To Spin! </div>
-
-<div id='score'> 
-    <header> MONEY WON </header>
-    <p>500</p>
-</div>
-
-<div id='gameOver' style="display: none"> OUT OF CASH. <br> Please start a new game. </div>
-
-<div id='completeRow' style="display: none"> CHACHING! <br> lucky three in a row, <br> +500! </div>
-
-
-<div class="slotRow">
-
-<div class="slots"  id="slots_a">
+            <div class='slots'  id='slots_a'>
 	
-        <div class="slot"><img src="http://i.imgur.com/74YyHqa.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/AMn1C3n.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/MXNLGis.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/N3jFGfj.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/xX6tUj7.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/dG0pmcl.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/0e2IQjY.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/u11DlyW.png"></div>
-</div>
-<div class="slots"  id="slots_b">
+                <div class='slot'><img src='http://i.imgur.com/74YyHqa.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/AMn1C3n.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/MXNLGis.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/N3jFGfj.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/xX6tUj7.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/dG0pmcl.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/0e2IQjY.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/u11DlyW.png'></div> 
+            </div>
+
+            <div class='slots'  id='slots_b'>
 	
-        <div class="slot"><img src="http://i.imgur.com/74YyHqa.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/AMn1C3n.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/MXNLGis.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/N3jFGfj.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/xX6tUj7.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/dG0pmcl.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/0e2IQjY.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/u11DlyW.png"></div>
-</div>
-<div class="slots"  id="slots_c">
+                <div class='slot'><img src='http://i.imgur.com/74YyHqa.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/AMn1C3n.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/MXNLGis.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/N3jFGfj.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/xX6tUj7.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/dG0pmcl.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/0e2IQjY.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/u11DlyW.png'></div>
+            </div>
+
+            <div class='slots'  id='slots_c'>
 	
-        <div class="slot"><img src="http://i.imgur.com/74YyHqa.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/AMn1C3n.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/MXNLGis.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/N3jFGfj.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/xX6tUj7.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/dG0pmcl.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/0e2IQjY.png"></div>
-        <div class="slot"><img src="http://i.imgur.com/u11DlyW.png"></div>
+                <div class='slot'><img src='http://i.imgur.com/74YyHqa.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/AMn1C3n.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/MXNLGis.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/N3jFGfj.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/xX6tUj7.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/dG0pmcl.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/0e2IQjY.png'></div>
+                <div class='slot'><img src='http://i.imgur.com/u11DlyW.png'></div>
 
-</div>
+            </div>
 
-</div>
+        </div>
 
-
- </div> 
-
+    </div> 
 
 </body>
 

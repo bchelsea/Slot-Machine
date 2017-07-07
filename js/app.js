@@ -23,9 +23,7 @@ var images = [
 $(document).ready(function(){
     $('button.spin').click(function(){
         goEmojis();
-        console.log('was', score);
         checkForWin();
-        console.log('now', score);
         isGameOver();
         isCompleteRow();
         updateScore();
@@ -38,18 +36,18 @@ $(document).ready(function(){
 /*----- functions -----*/
 
 setInterval(function () {
-    $("#score").css("background-color", function () {
+    $('#score').css('background-color', function () {
         this.switch = !this.switch
-        return this.switch ? "yellow" : ""
+        return this.switch ? 'yellow' : ''
 
     });
 }, 500) 
 
 
 setInterval(function () {
-    $(".spin").css("background-color", function () {
+    $('.spin').css('background-color', function () {
         this.switch = !this.switch
-        return this.switch ? "yellow" : ""
+        return this.switch ? 'yellow' : ''
     });
 }, 500)
 
@@ -66,17 +64,14 @@ function goEmojis() {
 
 function checkForWin() {
     if (slotA == slotB && slotB == slotC) {
-        console.log(' 3 in a row!')
         changeScore(500)
         isCompleteRow();
     } else if (
         (slotA !== slotB && slotA == slotC) || 
         (slotA == slotB && slotA !== slotC) || 
         (slotB == slotC && slotB !== slotA)) {
-        console.log('two of a kind')
         changeScore(100)
     } else if (slotA !== slotB && slotB !== slotC) {
-        console.log('no matches')
         changeScore(-75)
         return null;
     }
@@ -99,7 +94,6 @@ function isCompleteRow() {
         setTimeout(function(){
             $('#completeRow').show().delay(2000).fadeOut();;
         },  100);
-
     }
 }
 
